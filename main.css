@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@100;300&display=swap');
+
+body { 
+    /*CSS goed here  */
+    /* comment is ook apple + ? */
+    background-color: rgb(94, 115, 135);
+    font-family: 'Lato', sans-serif;
+    /* If you include it here in body it will apply to the whole page */
+    font-size: 16pt;
+    /* you can choose between points (pt) or pixels (px) stay consistaind the whole code */
+    letter-spacing: 1,8px;
+    color: rgb(57, 58, 59); 
+    /* color: #171717;  */
+    /* links zijn al andere kleur lettertype on default */
+
+}
+
+/* door h1 ervoor te zetten pak je alleen dat deel */
+h1{
+    font-family: 'Bebas Neue', cursive;
+    /* position: absolute; */
+  /* right: 200px; */
+  text-align:center;
+  /* width: 350px; */
+  /* border: 3px solid #73AD21; */
+  /* padding: 10px; */
+
+  /* padding is between the boarder en content */
+
+}
+
+h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 20pt;
+    margin-left:20%
+}
+
+/* margin in % kan ervoor zorgen dat als website smaller wordt alles in percentage smaller wordt */
+
+p{
+    width: 60%;
+    margin-left: 20%
+    
+
+}
+
+img{
+    width: 250px; 
+    margin-left: 20%;
+}
+
+/* basic styling links */
+a{
+    color:#86a2ac;
+    text-decoration: none;
+
+    /* met text decoration doe je een streepje onder alle links */
+
+    /* more in-depth styling of links */
+    /* love & hate */
+
+  
+}
+
+a:link, 
+a:visited {
+    color: #86a2ac;
+    text-decoration: none;
+
+}
+
+/* dit kan anders zijn als je erover heen gaat */
+a:hover, a:active {
+    color: red;
+
+}
+
+
+/* om te plaatsen waar je de tekst zet moet je naar w3school*/
+
+/* you can use classes to add styles to a part of your page */
+
+.party {
+    margin-bottom:42px;
+}
+
+/* met .party kan je aan een bepaald deel tekst een eigenschap toekennen */
+/* kan je zelf namen aan geven
+LET OP invoeren in de index achter een <P> als <p class="party" of de naam die je geeft
+dat paragraaf heeft dan die eigenschappen */
